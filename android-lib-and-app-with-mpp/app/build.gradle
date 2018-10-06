@@ -34,7 +34,7 @@ kotlin {
 	sourceSets {
         commonMain {
             dependencies {
-                implementation project(':lib')
+                implementation 'com.example.android-lib:lib:1.0.0'
                 implementation 'org.jetbrains.kotlin:kotlin-stdlib-common'
             }
         }
